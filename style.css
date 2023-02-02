@@ -1,0 +1,886 @@
+
+
+
+body,h1,h2,h,p,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    display: block; 
+    width: 960px;
+    
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cab{
+    background: #f3eb79;
+    height: 140px;
+
+}
+/*********************     SEÇÃO SERIES     *************************/
+.menu{
+    max-width: 1300px;
+    margin: auto;
+    padding:20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    margin: 0 10px;
+    font-size:4.00em;
+    font-weight:bold;
+    -webkit-linear-gradient: ( top, #ff6b22 0%, #e300a5 40%, #3712eb 90%);
+    background:linear-gradient(to right,#ff6b22 0%, #e300a5 40%, #3712eb 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    
+}
+.logo sub{
+    font-size:14px;
+    
+}
+.naveg ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1 1 260px;
+    
+}
+.naveg a{
+    font-size:18px;
+    display: block;
+    padding:15px;
+    
+    
+    
+}
+
+.naveg a:hover{
+    color:#ff6b22;
+}
+/*********************     SEÇÃO BANNER    *************************/
+#banner{
+    max-width:1300px;
+    margin: auto;
+    padding-top: 3.5em;
+    display:flex;
+    flex-wrap: wrap;
+    height: 600px;
+    background:rgb(209, 206, 206);
+    justify-content: center;
+    
+    
+    
+}
+
+#banner img{
+   display:flex;
+   flex-wrap: wrap;
+   flex:1 1 300px;
+   border:1px solid #000;
+   padding:4px;
+   border-radius:2px;
+   height:500px;
+   background:white;
+   
+    
+}
+#b1{
+    position: relative;
+    left:0px;
+    top:0px;
+}
+
+#b2{
+    position: relative;
+    left:0px;
+    top:-600px;
+    
+}
+ 
+#b3{
+    position: relative;
+    left:0px;
+    top:-1200px;
+    
+}
+
+#b4{
+    position: relative;
+    left:0px;
+    top:-1800px;
+    
+}
+
+#b5{
+    position: relative;
+    left:0px;
+    top:-2400px;
+    
+    
+}
+
+#banner p {
+    
+    flex-wrap: wrap;
+    font-size:25px;
+    text-transform:uppercase;
+    position: relative;
+    bottom:120px;
+    font-weight: bold;
+    padding:30px ;
+    background:rgb(209, 206, 206);
+    height:100px;
+    width: 954px;
+    text-align: center;
+    margin-left:3px;
+    filter: opacity(70%);
+}
+.banner-info{
+    display: flex;
+    flex-wrap: wrap;
+    width:1300px;
+    margin:auto;
+    height:180px;
+    background:rgb(209, 206, 206);
+   
+ 
+
+}
+
+.banner-info ul{
+    padding: 0px 170px ;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: circle;
+    font-size:20px;
+    line-height:35px;
+    word-spacing: 5px;
+    text-indent: 30px;
+    
+ 
+    
+   
+}
+.banner-info li{
+    
+   margin-left:20px;
+    
+    
+    
+}
+
+
+
+
+
+/*********************     SEÇÃO ANIME    *************************/
+
+.ANIME-INFO{
+    display: flex;
+    flex:1 1 420px;
+    margin: 30px auto;
+    max-width: 1300px;
+    background:rgb(207, 207, 207);
+   
+}
+.ANIME-INFO h1{
+    display: flex;
+    flex-wrap:wrap ;
+    background:#f3eb79;
+    width: 350px;
+    height: auto;
+    align-items: center;
+    font-size:2.5em;
+    padding:8px;
+    letter-spacing:6px;
+   
+
+}
+.CX-ANIME1{
+  display: flex; 
+  flex-wrap: wrap;
+  flex:1 1 300px;
+
+}  
+.ANIME1 img{
+    width: 600px ;
+    height:400px;
+    margin:30px 30px 0px 30px;
+    border: 1px solid #000;
+    padding:5px;
+    background:white;
+    box-shadow: 0px 0px 10px ;
+    
+
+}
+
+.ANIME1 h2{
+    display: flex;
+    flex:1 1 25px;
+    text-align: center;
+    width: 600px;
+    height: 80px;
+    font-size: 34px;
+    padding:20px;
+    margin-left:25px ;
+    text-transform: uppercase;
+   
+ 
+} 
+
+.CX-ANIME2{
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin :30px auto;
+
+}
+.CX-ANIME2 img{
+    width: 200px;
+    height:150px;
+    margin: auto;
+    
+} 
+.CX-ANIME2 p{
+    width: 200px;
+   height:80px;
+   background:white;
+   text-align: center;
+   padding-top:10px;
+   margin:5px;
+ 
+   
+}
+
+
+/*********************     SEÇÃO HQS     *************************/
+
+.HQS-INFO{
+    display: flex;
+    flex:1 1 420px;
+    margin: 30px auto;
+    max-width: 1300px;
+    background:rgb(207, 207, 207);
+    
+   
+}
+
+.HQS-INFO h1{
+    display: flex;
+    flex-wrap:wrap ;
+    background:#f3eb79;
+    width: 380px;
+    height: auto;
+    align-items: center;
+    font-size:2.5em;
+    padding:8px;
+    letter-spacing:6px;
+
+}
+
+
+.DEST-HQ img{
+    width: 600px ;
+    height:400px;
+    margin:30px 30px 0px 30px;
+    border: 1px solid #000;
+    padding:5px;
+    background:white;
+    box-shadow: 0px 0px 10px ;
+   
+}
+.DEST-HQ h2{
+   margin:auto;
+   width: 600px;
+   height:90px;
+   font-size:2.0em;
+   padding:8px 20px;
+   text-transform: uppercase;
+  
+  
+}
+.CX-HQS{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    
+}
+.CX-HQS img{
+   width: 200px;
+   height:150px;
+   margin: auto;
+}
+.CX-HQS p{
+   width: 200px;
+   height:80px;
+   background:white;
+   text-align: center;
+   padding-top:10px;
+   margin:5px;
+  
+}
+
+/*********************     SEÇÃO FILMES     *************************/
+
+
+.FILMES-INFO{
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    background:rgb(207, 207, 207);
+    margin-top:30px;
+    
+    
+}
+.FILMES-INFO h1{
+    display: flex;
+    flex-wrap:wrap ;
+    background:#f3eb79;
+    width: 210px;
+    height:auto;
+    align-items: center;
+    font-size:2.5em;
+    font-weight:bold;
+    padding:10px;
+    letter-spacing:6px;
+   
+} 
+
+
+
+.VIDEO-INFO img{
+    width: 600px ;
+    height:400px;
+    margin:30px 30px 0px 30px;
+    border: 1px solid #000;
+    padding:5px;
+    background:white;
+    box-shadow: 0px 0px 10px ;
+    
+}
+.VIDEO-INFO h2{
+    width: 600px;
+    text-align: center;
+    font-size:30px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.FILMES-1 {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 30px auto;
+}
+
+.FILMES-1 img{
+    width: 200px;
+    height: 150px;
+    margin:auto;
+    
+}
+.FILMES-1 p{
+   width: 200px;
+   height: 80px;
+   padding: 6px;
+   text-align: center;
+   background:white;
+   margin:5px;
+ 
+}
+   
+   
+  
+   
+
+
+ 
+
+/*********************     SEÇÃO SERIES     *************************/
+
+.SERIES-INFO{
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    background:rgb(207, 207, 207);
+    margin-top:30px;
+}
+.SERIES-INFO h1{
+    display: flex;
+    flex-wrap:wrap ;
+    background:#f3eb79;
+    width: 210px;
+    height:auto;
+    align-items: center;
+    font-size:2.5em;
+    font-weight:bold;
+    padding:10px;
+    letter-spacing:6px;
+}
+.SERIES-CENTRAL img{
+    width: 600px;
+  height: 400px;
+  margin:30px;
+  border:1px solid #000;
+  padding:4px;
+  background:white;
+  object-fit: fill;
+  box-shadow: 0px 0px 10px;
+}
+.SERIES-INFO  h2{
+    width: 600px;
+   text-align: center;
+   font-size:30px;
+   margin: 20px;
+   text-transform: uppercase;
+}
+
+.container-series{
+    display: flex;
+    flex-wrap: wrap;
+   margin:auto;
+}
+.container-series img{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+.container-series p{
+    width: 200px;
+    height: 80px;
+    padding: 6px;
+    text-align: center;
+    background:white;
+    margin: 5px;
+  
+ }
+
+/*********************     SEÇÃO GAMES     *************************/
+.GAMES-INFO{
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    background:rgb(207, 207, 207);
+    margin-top:30px;
+}
+.GAMES-INFO h1{
+    display: flex;
+    flex-wrap:wrap ;
+    background:#f3eb79;
+    width: 210px;
+    height:auto;
+    align-items: center;
+    font-size:2.5em;
+    font-weight:bold;
+    padding:10px;
+    letter-spacing:6px;
+}
+
+.CONTAINER-GAMES img{
+    width: 600px;
+    height: 400px;
+    margin:30px;
+    border:1px solid #000;
+    padding:4px;
+    background:white;
+    object-fit: fill;
+    box-shadow: 0px 0px 10px;
+}
+.CONTAINER-GAMES h2{
+    width: 600px;
+    text-align: center;
+    font-size:30px;
+    margin: 20px;
+    text-transform: uppercase;
+   
+}
+.CONTAINER-GAMES-2{
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto ;
+   
+}
+
+.CONTAINER-GAMES-2 img{
+    width: 200px;
+    height: 150px;
+    margin:auto;
+}
+.CONTAINER-GAMES-2 p{
+    width: 200px;
+    height:80px;
+    padding: 6px;
+    text-align: center;
+    background:white;
+    margin:5px ;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:30px auto;
+    background:#f3eb79;
+    
+}
+.footer-1, .footer-2{
+ margin:0px 60px 0px;
+ padding: 0px;
+
+}
+.footer-1 ul{
+line-height:32px;
+
+}
+
+.footer-2 ul{
+    line-height:24px;
+}
+
+.footer-3 {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin-right: 60px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+
+    .menu{
+        
+        padding:10px 0;
+    
+    }
+     /*********************     SESSÃO BANNER MÍDIA QUERY     *************************/
+    #banner{
+        padding: 28px;
+        margin-top: 25px;
+        margin: auto;
+        height:350px;
+       
+    }
+    #banner img {
+        width: 480px;
+        height: 300px;
+        
+    }
+    #b1{
+        position: relative;
+        left:0px;
+        top:0px;
+    }
+    #b2{
+        position: relative;
+        left:0px;
+        top:-400px;
+        
+    }
+    #b3{
+        position: relative;
+        left:0px;
+        top:-800px;
+        
+    }
+    #b4{
+        position: relative;
+        left:0px;
+        top:-1200px;
+        
+    }
+    #b5{
+        position: relative;
+        left:0px;
+        top:-1600px;
+        
+    }
+
+    #banner p {
+        font-size:20px;
+        text-transform:uppercase;
+        position: relative;
+        bottom:120px;
+        font-weight: bold;
+        padding:30px ;
+        background:rgb(226, 221, 221);
+        height:100px;
+        width: 471px;
+        text-align: center;
+        margin-left:3px;
+        filter: opacity(70%);
+    }
+    /*********************     SESSÃO ANIME MÍDIA QUERY     *************************/
+    .ANIME-INFO{
+       
+       flex-wrap: wrap;
+       
+    }
+    .ANIME-INFO h1{
+        display: flex;  
+        flex-direction: column; 
+        width:1300px;
+        height:80px;
+       padding-top:20px;
+       
+    }
+    .ANIME1 img{
+      
+       width: 420px; 
+       height: 300px;
+
+    }
+    .ANIME1 h2{
+        width: 420px;
+        height:80px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .CX-ANIME2{
+        margin:30px;
+        
+    }
+  
+
+
+     /*********************     SESSÃO HQS MÍDIA QUERY     *************************/
+     .HQS-INFO{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        
+     }
+     
+     .HQS-INFO h1{
+        display: flex;  
+        flex-direction: column; 
+        width:1300px;
+        height:80px;
+       padding-top:20px;
+     }
+
+     .DEST-HQ img{
+        width: 420px; 
+        height: 300px;
+     }
+
+     .DEST-HQ h2{
+        width: 420px;
+        height:80px;
+        text-align: center;
+        font-size: 24px;
+     }
+     .CX-HQS{
+       margin:30px; 
+     }
+
+
+
+
+     /*********************     SESSÃO FILMES MÍDIA QUERY     *************************/
+     .FILMES-INFO{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+       
+    }
+
+    .FILMES-INFO h1{
+        display: flex;  
+        flex-direction: column; 
+        width:1300px;
+        height:80px;
+       padding-top:20px;
+    }
+    .VIDEO-INFO img{
+        width: 420px; 
+        height: 300px;
+    }
+    .VIDEO-INFO h2{
+        width: 420px;
+        height:50px;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .FILMES-1{
+        margin:30px;
+    }
+     
+   /*********************     SESSÃO SERIES MÍDIA QUERY     *************************/
+
+   .SERIES-INFO {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .SERIES-INFO h1{
+        display: flex;  
+        flex-direction: column; 
+        width:1300px;
+        height:80px;
+       padding-top:20px;
+    }
+   
+    
+    .SERIES-CENTRAL img{
+        width: 420px; 
+        height: 300px;
+   }
+    .SERIES-CENTRAL h2{
+        width: 420px;
+        height:80px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .container-series{
+        margin:30px;  
+    }
+
+    /*********************     SESSÃO GAMES MÍDIA QUERY     *************************/
+    .GAMES-INFO{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+       
+    }
+
+    .GAMES-INFO h1{
+        display: flex;  
+        flex-direction: column; 
+        width:1300px;
+        height:80px;
+       padding-top:20px;
+    }
+    .CONTAINER-GAMES img{
+        width: 420px; 
+        height: 300px;
+    }
+    .CONTAINER-GAMES h2{
+        width: 420px;
+        height:50px;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .CONTAINER-GAMES-2{
+        margin:30px;
+    }
+   
+    /*********************     SESSÃO FOOTER MÍDIA QUERY     *************************/
+.footer-1,  h4{
+   text-align:center;
+}
+.footer-2 h4{
+    text-align:center;
+}
+.footer-1, .footer-2 {
+    margin:0px;
+}
+
+.footer-1 ul{
+    margin:50px;
+}
+.footer-2 ul{
+    margin:50px;
+}
+
+.footer-3 p{
+    text-align:center;
+    margin-left: 50px;
+}    
+
+    
+
+    
+   
+     
+    
+    
+    
+        
+  
+        
+    
+    
+
+    
+
+
+
+
+}   
+
+   
+     
+    
+     
+        
+        
+        
+    
+    
+    
+
+   
+
+    
+    
+
+    
+
+
+
+    
+ 
+ 
+    
